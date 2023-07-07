@@ -17,7 +17,18 @@
         "command": "dotenv.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "dotEnv",
+      "properties": {
+        "dotenv.enabled": {
+          "type": "boolean",
+          "scope": "resource",
+          "description": "%config.enabled%",
+          "default": true
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

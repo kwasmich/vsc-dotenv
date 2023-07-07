@@ -1,0 +1,5 @@
+{
+	"displayName": "dotEnv",
+	"description": "Loads .env file into terminal environment.",
+	"config.enabled": "Should load .env file into terminal environment."
+}
