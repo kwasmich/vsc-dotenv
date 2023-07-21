@@ -3,6 +3,16 @@
 Loads .env into your terminal environment.
 
 
+
+## How to build
+
+* Start Dev Container
+* npm install
+* sudo npm install -g @vscode/vsce
+* vsce package
+
+
+
 ## Features
 
 Does stuff
